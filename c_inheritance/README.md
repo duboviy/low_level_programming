@@ -8,7 +8,7 @@ Trying to emulate inheritance mechanism in C =)
 
 ## How to compile and run C part
 
-To compile and run C code use following command:
+To compile and run [C code](inheritance.c) use following command:
 ```
 $ gcc -o main *.c && main                                                                                                                                                                                                                                
 ```                                                                                                                                                                                                                          
@@ -21,7 +21,7 @@ Eating mouse
 Meow!                                                                                                                                                                                                                                                  
 ```
 
-Example of inheritance mechanism we're trying to emulate given in inheritance.cpp (C++ part).
+Example of inheritance mechanism we're trying to emulate given in [C++ part](inheritance.cpp).
 
 ## How to compile and run C++ part
 
