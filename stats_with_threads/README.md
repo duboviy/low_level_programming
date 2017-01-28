@@ -1,22 +1,30 @@
-<h1><img src="https://raw.githubusercontent.com/duboviy/low_level_programming/master/logo.png" height=85 alt="logo" title="logo"> Intro to Fun C</h1>
-
-by [Eugene Duboviy](https://duboviy.github.io/)
+<h1><img src="https://raw.githubusercontent.com/duboviy/low_level_programming/master/logo.png" height=85 alt="logo" title="logo"> Stats with threads</h1>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/duboviy/low_level_programming/)
 
-An introduction to fun function usage in C =)
+Trying to use parallel computing using multiple threads =)
 
-## How to compile and run C part
+## How to compile and run
 
-To compile and run C file use following command:
+To compile and run [C code](main.c) use following command:
 ```
-$ gcc -o main <specify_.c_source_filename_here> && main                                                                                                                                                                                                                                
+$ gcc -pthread -o main *.c && ./main 1 2 3 4 5                                                                                                                                                                                                                              
 ```                                                                                                                                                                                                                          
+                                                                                                                                                                                                                          
+## Input data
 
-For example to run functions.c source file:
-(ex. functions.c)
+Example of input data is given below:
 ```
-$ gcc -o main functions.c && main                   
+./main 1 2 3 4 5 
+```                                                                                                                                                                                                               
+
+## Output data:                                                                                                                                                                                                                                      
+
+Example of output data for 1 2 3 4 5 value is given below:
+```
+Average: 3
+Minimum: 1
+Maximum: 5                                                                                                                                                                      
 ```
 
 ## Badges

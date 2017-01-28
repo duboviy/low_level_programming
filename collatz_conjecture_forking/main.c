@@ -2,16 +2,16 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-int main()
+
+int main(void)
 {
-	int n=0;
-	int k=0;
+	int k = 0;
 
 	pid_t pid;
 
     do
     {
-        printf("Please enter a number greater than 0 to run the Collatz Conjecture.\n");
+        printf("Collatz Conjecture >>> Please enter a integer number greater than 0.\n");
         scanf("%d", &k);
     }
     while (k <= 0);
@@ -22,6 +22,7 @@ int main()
     {
         printf("Child is working...\n");
         printf("%d\n",k);
+
         while (k!=1)
         {
             if (k%2 == 0)

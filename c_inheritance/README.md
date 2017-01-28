@@ -10,7 +10,7 @@ Trying to emulate inheritance mechanism in C =)
 
 To compile and run [C code](inheritance.c) use following command:
 ```
-$ gcc -o main *.c && main                                                                                                                                                                                                                                
+$ gcc -o main *.c && ./main                                                                                                                                                                                                                                
 ```                                                                                                                                                                                                                          
                                                                                                                                                                                                                           
 Will give output:                                                                                                                                                                                                                                      
@@ -27,7 +27,7 @@ Example of inheritance mechanism we're trying to emulate given in [C++ part](inh
 
 To compile and run C++ code use following command:
 ```
-$ g++ -o main *.cpp && main                                                                                                                                                                                                                                
+$ g++ -o main *.cpp && ./main                                                                                                                                                                                                                                
 ```              
 
 Should give similar (as C part) output:                                                                                                                                                                                                                                      
@@ -45,6 +45,6 @@ Meow!
 
 [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](https://github.com/duboviy/low_level_programming/) [![forthebadge](http://forthebadge.com/images/badges/powered-by-oxygen.svg)](https://github.com/duboviy/low_level_programming/) [![forthebadge](http://forthebadge.com/images/badges/powered-by-water.svg)](https://github.com/duboviy/low_level_programming/) [![forthebadge](http://forthebadge.com/images/badges/powered-by-responsibility.svg)](https://github.com/duboviy/low_level_programming/)
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/duboviy/low_level_programming/)
 
 [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/duboviy/low_level_programming/)
