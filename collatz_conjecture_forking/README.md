@@ -15,7 +15,7 @@ $ gcc -o main *.c && ./main
 
 Example of input data is given below:
 ```
-Collatz Conjecture >>> Collatz Conjecture >>> Please enter a integer number greater than 0.
+Collatz Conjecture >>> Please enter a integer number greater than 0.
 123456
 ```                                                                                                                                                                                                               
 

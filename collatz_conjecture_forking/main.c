@@ -23,18 +23,18 @@ int main(void)
         printf("Child is working...\n");
         printf("%d\n",k);
 
-        while (k!=1)
+        while (k != 1)
         {
-            if (k%2 == 0)
+            if (k % 2 == 0)
             {
-                k = k/2;
+                k = k / 2;
             }
-            else if (k%2 == 1)
+            else if (k % 2 == 1)
             {
-                k = 3 * (k) + 1;
+                k = 3 * k + 1;
             }
 
-            printf("%d\n",k);
+            printf("%d\n", k);
         }
 
         printf("Child process is done.\n");
