@@ -1,3 +1,8 @@
+#include <iostream>     // std::cout
+#include <algorithm>    // std::swap
+#include <string>       // std::string
+
+
 template <typename T >
 void invert_string( T &a )
 {
@@ -8,5 +13,11 @@ void invert_string( T &a )
     }
 }
 
-std::string str = "abcdefg";
-invert_string(str);
+
+int main () {
+    std::string str = "abcdefg";
+    invert_string(str);
+    std::cout << str;
+
+    return 0;
+}
