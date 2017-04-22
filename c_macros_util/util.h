@@ -26,11 +26,4 @@ typedef unsigned long long  uint64;
 #define MAX(a, b)              ((a) > (b) ? (a) : (b))
 #define MIN(a, b)              ((a) < (b) ? (a) : (b))
 
-/* Prototypes */
-
-void print_arr_int (int arr[], size_t size);
-void print_arr_float (float arr[], size_t size);
-int max_int (int arr[], size_t size);
-int min_int (int arr[], size_t size);
-
 #endif
